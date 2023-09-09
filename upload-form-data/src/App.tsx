@@ -1,12 +1,17 @@
 import './App.css'
 import FormData from './components/FormData'
-import { ToastContainer, toast } from 'react-toastify';
+import FlexBox from './components/FlexBox'
+import Sketelon from './components/Sketelon'
 
+import { ToastContainer, toast } from 'react-toastify';
+2
 function App() {
   return (
     <>
      <ToastContainer />
-      <FormData />
+      {/* <FormData /> */}
+      {/* <FlexBox /> */}
+      <Sketelon />
     </>
   )
 }
